@@ -2,7 +2,7 @@ import json
 from collections import Counter
 
 # Load Trivy report
-with open("trivy-report.json", "r") as file:
+with open("trivy-report_git.json", "r") as file:
     report = json.load(file)
 
 results = report.get("Results", [])
